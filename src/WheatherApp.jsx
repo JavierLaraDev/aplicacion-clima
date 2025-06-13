@@ -6,7 +6,7 @@ export const WheatherApp = () => {
     
     const API_KEY="930f231fadf6c6675fb7597d378b3a1c"
 
-    const difKelvin = 273.15;
+    const difKelvin = 272.15;
 
     const [ciudad, setCiudad] = useState("");
     const [dataClima, setDataClima] = useState()
